@@ -13,9 +13,9 @@ One industrial robot paints the exterior panels of a car body inside a glass-wal
 ## Links
 | Item | Link |
 |---|---|
-| Technical report | [docs/Technical_Report.pdf] |
-| Demo video | [link] |
-| Google Drive folder | [link] |
+| Technical report | [Technical_Report.pdf] |
+| Demo video | [https://drive.google.com/file/d/1VxoycxTVcjbKSUFnx-HmSLqNhDA8X-yx/view?usp=drive_link] |
+| Google Drive folder | [https://drive.google.com/drive/folders/1f1qFb8xROggR6NAO5vW30rXwBKvUpfL-?usp=drive_link] |
 
 ## Setup
 | Item | Value |
@@ -33,7 +33,7 @@ One industrial robot paints the exterior panels of a car body inside a glass-wal
 1. **Models:** car, gantry and glass cell prepared in Blender, exported as STL, one file per part.
 2. **Cell:** gantry built as a 3-axis mechanism in RoboDK. The robot is mounted on its Z flange and synchronized with it.
 3. **Paths:** the Surface Pattern Generator makes a target pattern for each panel. A curve follow project solves each pattern with smart axis optimization, so the arm and the gantry move in sync.
-4. **Main program:** `main_prog` calls the panel programs in order, with safe transfer moves between them.
+4. **Main program:** `Main_Prog` calls the panel programs in order, with safe transfer moves between them.
 5. **Collision checking:** collision map active for robot, tool, car, gantry and cell.
 
 ## Painted surfaces
@@ -47,11 +47,9 @@ One industrial robot paints the exterior panels of a car body inside a glass-wal
 | Collisions in final program | [ 0 ] |
 | Simulated cycle time | [11m 9.7s] |
 
-![Cell layout](docs/screenshots/01_layout_iso.png)
-
 ## How to run
 1. Install RoboDK [version:6.1].
-2. Open `station/[Vyankatesh_Robotic_Car_Painting_cell].rdk`.
+2. Open `Vyankatesh_Robotic_Car_Painting_cell.rdk`.
 3. Double-click `Main_Prog` to run the full painting program.
 4. If the yellow path is not visible, right-click `Main_Prog` and choose Recalculate.
 
