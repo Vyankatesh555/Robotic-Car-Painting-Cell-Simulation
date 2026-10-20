@@ -55,14 +55,6 @@ One industrial robot paints the exterior panels of a car body inside a glass-wal
 3. Double-click `Main_Prog` to run the full painting program.
 4. If the yellow path is not visible, right-click `Main_Prog` and choose Recalculate.
 
-## Repository structure
-```
-station/     RoboDK station (.rdk)
-models/      Car panels, gantry parts, glass cell, tool (STL),
-programs/    Exported robot program
-docs/        Technical report and screenshots
-```
-
 ## Limitations
 The car is a compact hatchback, smaller than the reference car in the brief.
 Some Parts(Frame and Both Bumpers and some of the tailgate) do not have a pattern/path that evenly/efficiently covers the surface.
