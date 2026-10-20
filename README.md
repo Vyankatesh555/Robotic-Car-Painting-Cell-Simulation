@@ -1,8 +1,11 @@
 # Robotic-Car-Painting-Cell-Simulation
 
 **Name:** Vyankatesh Pandharpurkar
+
 **College:** AISSMS College of Engineering, Pune
-**Software used:** RoboDK version:6.1 (Surface Pattern Generator add-in, curve follow projects), Blender version:5.1
+
+**Software used:** RoboDK version:6.1, Blender version:5.1
+
 **Robot selected:** ABB IRB 1300-10/1.15, mounted inverted on a custom 3-axis overhead gantry (9 axes in total)
 
 Practical assessment for the Robotics Simulation Intern position at Yuktii AI Labs.
