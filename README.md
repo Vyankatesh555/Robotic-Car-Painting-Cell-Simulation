@@ -16,6 +16,7 @@ One industrial robot paints the exterior panels of a car body inside a glass-wal
 | Technical report | [Technical_Report.pdf] |
 | Demo video | [https://drive.google.com/file/d/1VxoycxTVcjbKSUFnx-HmSLqNhDA8X-yx/view?usp=drive_link] |
 | Google Drive folder | [https://drive.google.com/drive/folders/1f1qFb8xROggR6NAO5vW30rXwBKvUpfL-?usp=drive_link] |
+| Weblink to Simulation | [https://web.robodk.com/lnk/3132323431233138] |
 
 ## Setup
 | Item | Value |
