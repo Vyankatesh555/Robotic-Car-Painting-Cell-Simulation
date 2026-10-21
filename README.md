@@ -10,6 +10,9 @@
 
 Practical assessment for the Robotics Simulation Intern position at Yuktii AI Labs.
 
+<img width="800" height="613" alt="Gif_Clip" src="https://github.com/user-attachments/assets/b280ce75-85c1-4a39-a775-dee0e43a9cc8" />
+
+
 ## Overview
 One industrial robot paints the exterior panels of a car body inside a glass-walled painting cell. The ABB IRB 1300 hangs from a custom X-Y-Z gantry. The arm and the gantry move together as one 9-axis system, so one robot reaches every side of the car without a second robot or a turntable.
 
